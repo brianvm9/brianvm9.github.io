@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+/* UNIVERSALS */
+a {
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+}
+
+
+/*BACKGROUND*/
+
+body {
+    width: 100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    background:url('../img/home.jpg');
+    background-size:cover;
+    position: absolute;
+    left:0;
+    right:0;
+    z-index: -1;
+    height: 1055px;
+    font-family: 'Squada One', sans-serif;
+}
+
+.text-center {
+     text-align: center;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.mid {
+    display: block;
+
+}
+
+/*Navigation Starts*/
+nav {
+    display: inline-block;
+    position: absolute;
+    right: 875px;
+    bottom: 0;
+    margin-bottom: 52px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav ul {
+    margin-bottom: 28px;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 24px;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#home-link {
+        background-color: rgba(0,0,0,.7);
+        color: #fff;
+        padding: 30px 20px 0px;
+        margin-bottom: 10px;
+}
+#home-link:hover {
+        background-color: rgba(255,255,255,.7);
+        color: #000;
+}
+#about-link {
+        background-color: rgba(0,0,0,.7);
+        color: #fff;
+        padding: 30px 20px 0px;
+}
+#about-link:hover {
+        background-color: rgba(255,255,255,.7);
+        color: #000;
+}
+
+#contact-link {
+        background-color: rgba(0,0,0,.7);
+        color: #fff;
+        padding: 30px 20px 0px;
+}
+
+#contact-link:hover {
+        background-color: rgba(255,255,255,.7);
+        color:#000;
+}
+/*Navigation Ends*/
+
+.logo {
+    height: 50px;
+    position: absolute;
+    z-index:2;
+}
+
+.white {
+    color: #fff;
+}
+
+#name {
+    background-color: rgba(0,0,0,.7);
+    position:absolute;
+    width: 2133px;
+    height: 400px;
+}
+
+#name h1 {
+    padding: 0px;
+    position: relative;
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+
+
+.title {
+    margin: 0;
+    padding-top: 150px;
+}
+
+hr {
+    width: 15%;
+    text-align: center;
+}
+
+
+#description {
+    font-size: 32px;
+}
+
+
+/*Footer Starts*/
+
+footer {
+    background-color: rgba(0,0,0,.7);
+    padding: 0px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 90px
+}
+
+
+#social-media {
+    margin-top: 8px;
+}
+
+#copyright {
+    color: #fff;
+    margin-top: 70px;
+    margin-bottom: 0px;
+}

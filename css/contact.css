@@ -1,0 +1,115 @@
+body {
+    background:url('../img/Contact.jpg');
+    background-size: cover;
+    height: 1036px;
+    width: 2118px;
+    z-index: -1;
+    position: relative;
+}
+
+nav ul {
+    margin-bottom: 8px;
+}
+
+
+.contact h1 {
+    margin-bottom: 0;
+    margin-left: 885px;
+    display: inline-block;
+    font-size: 48px;
+}
+
+#contact-form {
+    height: 500px;
+}
+
+#contact-form iframe {
+    float: left;
+    border-style: none;
+    bottom: 500px;
+    background-color: rgba(255,255,255,.4);
+    position: relative;
+    top: 80px;
+    left: 15px;
+    width: 35%;
+}
+
+#map {
+    clear: both;
+}
+
+#map address {
+    width: 30%;
+    float: right;
+    position: relative;
+    text-align: center;
+    padding-top: 115px;
+    font-size: 32px;
+}
+
+#map iframe {
+    float: right;
+    height: 500px;
+    width: 600px;
+    position: absolute;
+    right: 0;
+    top: 148px;
+}
+
+#phone {
+   position: absolute;
+   right: 220px;
+   top: 775px;
+}
+
+.number-email {
+    margin-left: 25px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.number-email:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#email {
+    font-size: 32px;
+}
+
+/*Footer Starts*/
+
+footer {
+    top: 965px;
+}
+
+
+/* Social Media Icons */
+
+.fa-linkedin-square {
+    color: #007bb6;
+    margin-right: 70px;
+}
+
+.fa-linkedin-square:hover {
+    color: #fff;
+}
+
+.fa-github {
+    color: #fff;
+}
+
+.fa-github:hover {
+    color: rgba(0,0,0,.7);
+}
+
+/* Social Media Icons Ends*/
+
+#social-media {
+    margin-top: 8px;
+    display:inline-block;
+}
+
+#copyright {
+    margin-top: 15px;
+}
