@@ -23,7 +23,7 @@ body {
     left:0;
     right:0;
     z-index: -1;
-    height: 1055px;
+    height: 950px;
     font-family: 'Squada One', sans-serif;
 }
 
@@ -108,7 +108,7 @@ nav ul li {
 #name {
     background-color: rgba(0,0,0,.7);
     position:absolute;
-    width: 2133px;
+    width: 1920px;
     height: 400px;
 }
 
