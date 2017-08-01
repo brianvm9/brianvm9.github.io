@@ -10,6 +10,17 @@ p {
     text-align: center;
 }
 
+.text-center {
+     text-align: center;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.white {
+    color: #fff;
+}
 
 /*BACKGROUND*/
 
@@ -26,18 +37,6 @@ body {
     z-index: -1;
     height: 950px;
     font-family: 'Fjalla One', sans-serif;
-}
-
-.text-center {
-     text-align: center;
-}
-
-.uppercase{
-    text-transform: uppercase;
-}
-
-.white {
-    color: #fff;
 }
 
 /*Navigation Starts*/

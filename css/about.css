@@ -3,11 +3,6 @@ body {
 
 }
 
-body {
-    background-image: url('../img/about.jpg');
-
-}
-
 #about-me {
     font-size: 48px;
     display: inline-block;

@@ -43,15 +43,6 @@ body {
     font-size: 32px;
 }
 
-#map iframe {
-    float: right;
-    height: 500px;
-    width: 600px;
-    position: absolute;
-    right: 0;
-    top: 175px;
-}
-
 #phone {
    position: absolute;
    right: 115px;
@@ -73,12 +64,20 @@ body {
     font-size: 32px;
 }
 
+#map iframe {
+    float: right;
+    height: 500px;
+    width: 600px;
+    position: absolute;
+    right: 0;
+    top: 175px;
+}
+
 /*Footer Starts*/
 
 footer {
     top: 860px;
 }
-
 
 /* Social Media Icons */
 
@@ -99,12 +98,12 @@ footer {
     color: rgba(0,0,0,.7);
 }
 
-/* Social Media Icons Ends*/
-
 #social-media {
     margin-top: 8px;
     display:inline-block;
 }
+
+/* Social Media Icons Ends*/
 
 #copyright {
     margin-top: 15px;
