@@ -35,16 +35,15 @@ body {
     text-transform: uppercase;
 }
 
-.mid {
-    display: block;
-
+.white {
+    color: #fff;
 }
 
 /*Navigation Starts*/
 nav {
     display: inline-block;
     position: absolute;
-    right: 875px;
+    right: 785px;
     bottom: 0;
     margin-bottom: 52px;
     text-align: center;
@@ -101,9 +100,6 @@ nav ul li {
     z-index:2;
 }
 
-.white {
-    color: #fff;
-}
 
 #name {
     background-color: rgba(0,0,0,.7);

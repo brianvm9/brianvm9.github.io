@@ -9,7 +9,7 @@ body {
 
 .contact h1 {
     margin-bottom: 0;
-    margin-left: 885px;
+    margin-left: 785px;
     display: inline-block;
     font-size: 48px;
 }
@@ -59,7 +59,7 @@ body {
 
 .number-email {
     margin-left: 25px;
-    font-size: 25px;
+    font-size: 35px;
     border-radius: 5px;
 }
 
