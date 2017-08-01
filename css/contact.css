@@ -6,7 +6,6 @@ body {
 }
 
 
-
 .contact h1 {
     margin-bottom: 0;
     margin-left: 685px;
@@ -14,6 +13,7 @@ body {
     font-size: 48px;
 }
 
+/* Contact Form */
 #contact-form {
     height: 500px;
 }
@@ -28,7 +28,7 @@ body {
     left: 15px;
     width: 35%;
 }
-
+/* Contact Form Ends/Map Starts*/
 #map {
     clear: both;
     font-family: 'Roboto', sans-serif;
@@ -72,8 +72,7 @@ body {
     right: 0;
     top: 175px;
 }
-
-/*Footer Starts*/
+/*Map Ends/Footer Starts*/
 
 footer {
     top: 860px;
