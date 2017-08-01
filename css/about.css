@@ -9,13 +9,13 @@ body {
 }
 
 #about-me {
-    font-size: 24px;
+    font-size: 48px;
     display: inline-block;
     margin-top: 80px;
 }
 
 .me {
-    font-size: 48px;
+    font-size: 32px;
 }
 
 #copyright {
