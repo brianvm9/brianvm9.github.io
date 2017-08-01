@@ -1,15 +1,10 @@
 body {
     background:url('../img/Contact.jpg');
     background-size: cover;
-    height: 1036px;
-    width: 2118px;
     z-index: -1;
     position: relative;
 }
 
-nav ul {
-    margin-bottom: 8px;
-}
 
 
 .contact h1 {
@@ -80,7 +75,7 @@ nav ul {
 /*Footer Starts*/
 
 footer {
-    top: 965px;
+    top: 860px;
 }
 
 
