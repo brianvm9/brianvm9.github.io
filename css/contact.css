@@ -15,7 +15,6 @@ body {
 
 /* Contact Form Ends/Map Starts*/
 #map {
-    clear: both;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -68,6 +67,7 @@ body {
     position: absolute;
     left: 5px;
     top: 175px;
+    float: left;
 }
 /*Map Ends/Footer Starts*/
 
