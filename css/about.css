@@ -13,6 +13,26 @@ body, html {
     margin-top: 5%;
 }
 
+.my-work{
+  margin-top: 10%;
+}
+
+.my-work hr{
+  width: 25%;
+
+}
+
 #copyright {
     margin-top: 70px;
+}
+
+@media screen and (max-width:360px){
+  #about-me{
+    font-size: 18px;
+  }
+  
+  .my-work{
+    margin-top: 30%;
+  }
+
 }
