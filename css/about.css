@@ -1,19 +1,38 @@
-body {
+body, html {
     background-image: url('../img/about.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
 
 }
+
 
 #about-me {
-    font-size: 48px;
-    display: inline-block;
-    margin-top: 80px;
-    margin-left: 225px;
+    font-size: 32px;
+    margin-top: 5%;
 }
 
-.me {
-    font-size: 32px;
+.my-work{
+  margin-top: 10%;
+}
+
+.my-work hr{
+  width: 25%;
+
 }
 
 #copyright {
     margin-top: 70px;
+}
+
+@media screen and (max-width:360px){
+  #about-me{
+    font-size: 18px;
+  }
+  
+  .my-work{
+    margin-top: 30%;
+  }
+
 }

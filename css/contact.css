@@ -1,58 +1,40 @@
-body {
-    background:url('../img/Contact.jpg');
-    background-size: cover;
-    z-index: -1;
-    position: relative;
+body, html{
+  background-image: url('../img/Contact.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  z-index: -2;
 }
 
-
-.contact h1 {
+.contact {
     margin-bottom: 0;
-    margin-left: 685px;
-    display: inline-block;
-    font-size: 48px;
+    font-size: 32px;
+    z-index: 50;
 }
 
-/* Contact Form Ends/Map Starts*/
+.contact h1{
+    display: flex;
+    justify-content: center;
+}
+
+/*Map Starts*/
 #map {
     font-family: 'Roboto', sans-serif;
 }
 
 #map address {
-    width: 30%;
-    float: left;
-    position: relative;
-    text-align: center;
-    padding-top: 575px;
     font-size: 32px;
+    margin-left: 10%;
 }
 
 #phone {
-   position: absolute;
-   right: 175px;
-   top: 45%;
-}
-
-.fa-phone-square{
-
-}
-
-#email {
-  position: absolute;
-  right: 50px;
-  top: 55%;
-  font-size: 32px;
-}
-
-.fa-envelope{
-  position:absolute;
-  right: 385px;
-  top: 2px;;
+  display: flex;
 }
 
 .number-email {
     margin-left: 25px;
-    font-size: 35px;
+    font-size: 32px;
     border-radius: 5px;
 }
 
@@ -62,20 +44,18 @@ body {
 }
 
 #map iframe {
-    height: 500px;
-    width: 600px;
-    position: absolute;
-    left: 5px;
-    top: 175px;
-    float: left;
+    height: 480px;
+    width: 640px;
 }
 /*Map Ends/Footer Starts*/
 
-footer {
-    top: 860px;
-}
+
 
 /* Social Media Icons */
+#social-media{
+  display:flex;
+  justify-content: center;
+}
 
 .fa-linkedin-square {
     color: #007bb6;
@@ -93,15 +73,17 @@ footer {
 .fa-github:hover {
     color: rgba(0,0,0,.7);
 }
-
-#social-media {
-    margin-top: 8px;
-    display:inline-block;
-    margin-right: 70px;
-}
-
 /* Social Media Icons Ends*/
 
 #copyright {
     margin-top: 15px;
+}
+
+/*@Media*/
+
+@media screen and (max-width:360px) {
+.mobile{
+  font-size: 24px;
+}
+
 }
