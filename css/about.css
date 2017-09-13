@@ -1,17 +1,16 @@
-body {
+body, html {
     background-image: url('../img/about.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
 
 }
+
 
 #about-me {
-    font-size: 48px;
-    display: inline-block;
-    margin-top: 80px;
-    margin-left: 225px;
-}
-
-.me {
     font-size: 32px;
+    margin-top: 5%;
 }
 
 #copyright {

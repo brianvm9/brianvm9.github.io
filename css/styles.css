@@ -2,17 +2,22 @@
 
 
 /* UNIVERSALS */
+body,html{
+  height: 100%;
+  background-image: url('../img/home.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: -2;
+}
+
 a {
     text-decoration: none;
 }
 
-p {
-    text-align: center;
+a:hover{
+  /*background-color: rgba(250,250,250,.9);*/
 }
 
-.text-center {
-     text-align: center;
-}
 
 .uppercase{
     text-transform: uppercase;
@@ -22,86 +27,54 @@ p {
     color: #fff;
 }
 
+h1{
+  margin-top: 0px;
+  padding-top: 25px;
+}
 /*BACKGROUND*/
 
-body {
-    width: 100%;
-    height:100%;
-    margin: 0;
-    padding: 0;
-    background:url('../img/home.jpg');
-    background-size:cover;
-    position: absolute;
-    left:0;
-    right:0;
-    z-index: -1;
-    height: 950px;
-    font-family: 'Fjalla One', sans-serif;
+.hero-text{
+  background-color:rgba(0,0,0,.7);
+  height: 40%;
 }
 
 /*Navigation Starts*/
-nav {
-    display: inline-block;
-    position: absolute;
-    right: 785px;
-    bottom: 0;
-    margin-bottom: 52px;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
+.nav {
+  background-color: transparent;
+  border-color: transparent;
 }
 
-nav ul {
-    margin-bottom: 28px;
+.navbar-default{
+  margin-bottom: 0px;
+  background: transparent;
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 24px;
+  z-index: 3;
+  position:absolute;
+  left:40%;
+  bottom:9.4%;
 }
 
-nav ul li {
-    display: inline-block;
-    font-size: 24px;
-    padding: 20px;
-    margin: 40px;
-    border-radius: 10px 10px 0px 0px;
+.navbar li{
+  color: #000;
 }
 
-#home-link {
-        background-color: rgba(0,0,0,.7);
-        color: #fff;
-        padding: 30px 20px 0px;
-        margin-bottom: 10px;
-}
-#home-link:hover {
-        background-color: rgba(255,255,255,.7);
-        color: #000;
-}
-#about-link {
-        background-color: rgba(0,0,0,.7);
-        color: #fff;
-        padding: 30px 20px 0px;
-}
-#about-link:hover {
-        background-color: rgba(255,255,255,.7);
-        color: #000;
+#navigation-tabs{
+  background-color: rgba(0,0,0,.7);
+  color: #fff;
+  padding: 30px 20px 0px;
 }
 
-#contact-link {
-        background-color: rgba(0,0,0,.7);
-        color: #fff;
-        padding: 30px 20px 0px;
+.nav-tabs > li > a:hover{
+  background-color: rgba(255,255,255,.4) !important;
+  border-style:solid;
+  border-color:rgba(0,0,0,.4);
 }
 
-#contact-link:hover {
-        background-color: rgba(255,255,255,.7);
-        color:#000;
-}
 /*Navigation Ends*/
 
-.logo {
-    height: 50px;
-    position: absolute;
-    z-index:2;
-}
-
-
-#name {
+/*#name {*/
     background-color: rgba(0,0,0,.7);
     position:absolute;
     width: 100%;
@@ -116,20 +89,14 @@ nav ul li {
 }
 
 
-
 .title {
     margin: 0;
     padding-top: 150px;
 }
 
 hr {
-    width: 15%;
+    width: 35%;
     text-align: center;
-}
-
-
-#description {
-    font-size: 32px;
 }
 
 
@@ -153,4 +120,12 @@ footer {
     color: #fff;
     margin-top: 70px;
     margin-bottom: 0px;
+}
+
+/*@Media*/
+
+@media screen and (max-width:360px){
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    background-color: rgba(0,0,0,.7);
+  }
 }
