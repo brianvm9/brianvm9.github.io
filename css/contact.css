@@ -54,7 +54,7 @@ body, html{
 /* Social Media Icons */
 #social-media{
   display:flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .fa-linkedin-square {
