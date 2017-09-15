@@ -32,6 +32,10 @@ body, html{
   display: flex;
 }
 
+#phone-number{
+  margin-left: 37px;
+}
+
 .number-email {
     margin-left: 25px;
     font-size: 32px;
@@ -54,7 +58,7 @@ body, html{
 /* Social Media Icons */
 #social-media{
   display:flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .fa-linkedin-square {
@@ -84,6 +88,11 @@ body, html{
 @media screen and (max-width:360px) {
 .mobile{
   font-size: 24px;
+}
+
+#social-media{
+  display:flex;
+  justify-content: space-around;
 }
 
 }
