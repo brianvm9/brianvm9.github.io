@@ -140,6 +140,7 @@ footer {
 /*@Media*/
 
 @media only screen and (min-width: 360px) and (max-width: 767px){
+
   .navbar-default .navbar-collapse, .navbar-default .navbar-form{
     background-color: rgba(0,0,0,.7);
   }
@@ -147,8 +148,12 @@ footer {
     position:relative;
   }
 
+  .navbar-default .navbar-toggle{
+    background-color: rgba(0,0,0,.7);
+  }
+
   .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
-    background-color: transparent;
+    background-color: rgba(0,0,0,.7);
   }
 
   .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{

@@ -7,6 +7,10 @@ body, html{
   z-index: -2;
 }
 
+hr{
+  width: 25%;
+}
+
 .contact {
     margin-bottom: 0;
     font-size: 32px;
@@ -91,8 +95,17 @@ body, html{
 }
 
 /*@Media*/
+@media only screen and (min-width: 360px) and (max-width: 767px){
 
-@media screen and (max-width:360px) {
+.contact{
+  margin-top: 3%;
+}
+
+#phone-number{
+  margin-left: 37px;
+  margin-right: 70px;
+}
+
 .mobile{
   font-size: 24px;
 }
@@ -101,5 +114,7 @@ body, html{
   display:flex;
   justify-content: space-around;
 }
+
+
 
 }
