@@ -28,8 +28,15 @@ body, html{
     margin-left: 10%;
 }
 
-#phone {
-  display: flex;
+.map-address{
+  display:flex;
+  justify-content: center;
+}
+
+.contact-flex{
+  display:flex;
+  justify-content: center;
+  flex-direction:column;
 }
 
 #phone-number{

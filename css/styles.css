@@ -50,7 +50,7 @@ h1{
   z-index: 1;
   position:absolute;
   left:34%;
-  bottom:7%;
+  bottom:13.9%;
 }
 
 .navbar li{
@@ -135,12 +135,16 @@ footer {
 
 /*@Media*/
 
-@media screen and (max-width:360px ){
+@media screen and (min-width:360px ){
   .navbar-default .navbar-collapse, .navbar-default .navbar-form{
     background-color: rgba(0,0,0,.7);
   }
   .navbar-fixed-bottom, .navbar-fixed-top{
     position:relative;
+  }
+
+  .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+    border-radius: 5px 5px 5px 5px;
   }
 
 }
