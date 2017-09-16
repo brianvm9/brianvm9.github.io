@@ -12,9 +12,13 @@ body,html{
 
 a {
     text-decoration: none;
+    color: #fff;
 }
 
-
+a:focus, a:hover{
+  text-decoration: none;
+  color: #fff;
+}
 
 .uppercase{
     text-transform: uppercase;
