@@ -18,6 +18,7 @@ hr{
 }
 
 .contact h1{
+    padding-top: 10%;
     display: flex;
     justify-content: center;
 }
@@ -32,6 +33,11 @@ hr{
     margin-left: 10%;
 }
 
+#map address:hover{
+  background-color: #fff;
+  color: #000;
+}
+
 .map-address{
   display:flex;
   justify-content: center;
@@ -41,6 +47,7 @@ hr{
   display:flex;
   justify-content: center;
   flex-direction:column;
+  padding-top: 10%;
 }
 
 #phone-number{
@@ -98,7 +105,7 @@ hr{
 @media only screen and (min-width: 360px) and (max-width: 767px){
 
 .contact{
-  margin-top: 3%;
+  padding-top: 3%;
 }
 
 #phone-number{
