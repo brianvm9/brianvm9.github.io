@@ -24,18 +24,14 @@ hr{
 }
 
 /*Map Starts*/
-#map {
+#address {
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
-#map address {
+#address address {
     font-size: 32px;
-    margin-left: 10%;
-}
-
-#map address:hover{
-  background-color: #fff;
-  color: #000;
 }
 
 .map-address{
@@ -64,12 +60,7 @@ hr{
     background-color: #fff;
     color: #000;
 }
-
-#map iframe {
-    height: 480px;
-    width: 640px;
-}
-/*Map Ends/Footer Starts*/
+/*Address Ends/Footer Starts*/
 
 
 
