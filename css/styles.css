@@ -4,10 +4,12 @@
 /* UNIVERSALS */
 body,html{
   height: 100%;
+  overflow: hidden;
   background-image: url('../img/home.jpg');
   background-size: cover;
   background-position: center;
   z-index: -2;
+  overflow-x:hidden;
 }
 
 a {
@@ -36,7 +38,13 @@ h1{
 
 .hero-text{
   background-color:rgba(0,0,0,.7);
-  height: 40%;
+  height: 30%;
+  margin-top: -2.6%;
+  padding-top: 5%;
+}
+
+ hr{
+	width: 25%;
 }
 
 /*Navigation Starts*/
@@ -95,24 +103,52 @@ h1{
 
 /*Navigation Ends*/
 
-
-#name h1 {
-    padding: 0px;
-    position: relative;
-    padding-top: 50px;
-    font-size: 40px;
+/* Animation Add-Ins*/
+.transition {
+  position:absolute;
+  height:100%;
+  width:30%;
+  background:rgba(0,0,0,.7);
+  transform: skewX(-5deg) translateX(-50px);
+  transition:2s all ease-in-out;
+  -webkit-transition:2s all ease-in-out;
 }
 
-
-.title {
-    margin: 0;
-    padding-top: 150px;
+.content {
+  position:relative;
+  padding:200px 0 0 200px;
+  color:#000;
+  z-index:10;
+  height:300px;
 }
 
-hr {
-    width: 35%;
-    text-align: center;
+.cta {
+  outline:none;
+  border:none;
+  text-decoration:none;
+  text-transform:uppercase;
+  background:#202020;
+  color:#eaeaea;
+  box-sizing:border-box;
+  margin-top:20px;
+  padding:10px 40px;
 }
+
+.anim-trans {
+  animation: anim 4s ease-in-out;
+  }
+
+@keyframes anim{
+     0% { }
+     20%  { z-index:11;\transform: skewX(5deg) translateX(-100%); }
+     40%   { transform: skewX(0deg) translateX(0);
+ width:100%; z-index:11; box-shadow: 10px 10px 5px #eaeaea;}
+     60%   { transform: skewX(3deg) translateX(0);
+ width:100%;z-index:11; box-shadow: 10px 10px 5px #eaeaea;}
+     80%   { transform: skewX(1deg) translateX(-100%);
+ width:60%;z-index:11; box-shadow: 10px 10px 5px #eaeaea;}
+     100%   { transform: skewX(-5deg) translateX(-50px);
+ width:30%;z-index:1; box-shadow: none;}
 
 
 /*Footer Starts*/
@@ -136,6 +172,11 @@ footer {
     margin-top: 70px;
     margin-bottom: 0px;
 }
+
+#animate p {
+	color: white;
+}
+
 
 /*@Media*/
 
