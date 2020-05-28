@@ -1,0 +1,118 @@
+body, html{
+  background-image: url('../img/Contact.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  z-index: -2;
+}
+
+hr{
+  width: 25%;
+}
+
+.contact {
+    margin-bottom: 0;
+    font-size: 32px;
+    z-index: 50;
+}
+
+.contact h1{
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+/*Map Starts*/
+#address {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#address address {
+    font-size: 32px;
+}
+
+.map-address{
+  display:flex;
+  justify-content: center;
+}
+
+.contact-flex{
+  display:flex;
+  justify-content: center;
+  flex-direction:column;
+  padding-top: 10%;
+}
+
+#phone-number{
+  margin-left: 37px;
+}
+
+.number-email {
+    margin-left: 25px;
+    font-size: 32px;
+    border-radius: 5px;
+}
+
+.number-email:hover {
+    background-color: #fff;
+    color: #000;
+}
+/*Address Ends/Footer Starts*/
+
+
+
+/* Social Media Icons */
+#social-media{
+  display:flex;
+  justify-content: center;
+}
+
+.fa-linkedin-square {
+    color: #007bb6;
+    margin-right: 70px;
+}
+
+.fa-linkedin-square:hover {
+    color: #fff;
+}
+
+.fa-github {
+    color: #fff;
+}
+
+.fa-github:hover {
+    color: rgba(0,0,0,.7);
+}
+/* Social Media Icons Ends*/
+
+#copyright {
+    margin-top: 15px;
+}
+
+/*@Media*/
+@media only screen and (min-width: 360px) and (max-width: 767px){
+
+.contact{
+  padding-top: 3%;
+}
+
+#phone-number{
+  margin-left: 37px;
+  margin-right: 70px;
+}
+
+.mobile{
+  font-size: 24px;
+}
+
+#social-media{
+  display:flex;
+  justify-content: space-around;
+}
+
+
+
+}
